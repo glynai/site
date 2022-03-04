@@ -20,7 +20,7 @@ const Home: NextPage = () => {
             </a>
           </VStack>
           <Box pos="absolute" bottom={5}>
-            <a target="_blank" href="http://vercel.com/?utm_source=glynhack&utm_campaign=oss">
+            <a target="_blank" rel="noreferrer" href="http://vercel.com/?utm_source=glynhack&utm_campaign=oss">
               <Image src={vercelBadge} />
             </a>
           </Box>
