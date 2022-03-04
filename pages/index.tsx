@@ -14,7 +14,7 @@ const Home: NextPage = () => {
           <VStack>
             <Text fontSize="lg" fontWeight="bold" color={primary}>Glynhack</Text>
             <Heading size="2xl">Code in a community</Heading>
-            <Text textAlign="center" pt={4} pb={6}>Don't fight those errors alone. Bang your face on a keyboard in public, because that will fix all your problems.</Text>
+            <Text textAlign="center" pt={4} pb={6}>Don&apos;t fight those errors alone. Bang your face on a keyboard in public, because that will fix all your problems.</Text>
             <a href="http://glynhack.vercel.app/">
               <Button colorScheme='blue' size="lg">Join the waitlist</Button>
             </a>
