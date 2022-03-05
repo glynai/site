@@ -2,6 +2,7 @@ import { Box, Button, Center, Container, Flex, Heading, Text, useColorModeValue,
 import type { NextPage } from 'next'
 import Image from 'next/image'
 import vercelBadge from "../public/powered-by-vercel.svg"
+import Head from 'next/head'
 
 const Home: NextPage = () => {
   const toast = useToast()
@@ -9,6 +10,10 @@ const Home: NextPage = () => {
 
   return (
     <>
+      <Head>
+        <title>Code in a community with Glynhack</title>
+        <meta name="description" content="Don&apos;t fight those errors alone. Bang your face on a keyboard in public, because that will fix all your problems." />
+      </Head>
       <Container>
         <Center h="100vh">
           <VStack>
